@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head></head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<nav>
+<div id="nav-placeholder">
+
+
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+</nav>
+<!-- end navigation bar -->
+	<title>Contact Das Geek</title>
+	<link href="/contact.css" rel="stylesheet" type="text/css">
+
+
+  
+<form method="post" action="submit.php">
+        
+    <label>Name</label>
+    <input name="name" placeholder="Type Here">
+   <br>
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Type Here">
+  <br>
+    <label>Message</label>
+    <textarea name="message" placeholder="Type Here"></textarea>
+  <br>
+  <label>*What is 2+2? (Anti-spam)</label>
+<input name="human" placeholder="Type Here">
+<br>
+    <input id="submit" name="submit" type="submit" value="Submit">
+        
+</form>
+
+
+
+</html>

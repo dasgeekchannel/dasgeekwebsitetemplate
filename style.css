@@ -1,0 +1,31 @@
+h1{
+    color:chartreuse;
+    background-color:azure;
+    /* besides setting named colors you can also do RGB */
+}
+h2{
+    color:limegreen;
+}
+
+p{
+    font-size:18px;
+
+} 
+h3,h5,h6{
+    color:RGB(24,56,107)
+}
+
+/* The * is a wildcard selecting everything */  
+
+*{
+    font-family:circular;
+}
+
+/* RGBA or HSLA allow for opacity setting 0.6 in case below */ 
+h4{rgba(2,93,140,0.6)}
+
+.para
+ {
+  text-align: center;
+  
+}
